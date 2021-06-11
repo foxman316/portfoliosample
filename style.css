@@ -63,14 +63,16 @@ body{
     justify-content: center;
     align-items: center;
 }
-.icon-list{
+.icon-list　li{
     margin-right: 22px;
 }
 .icon-list li:last-child{
-    margin: 0;
-
-
+    margin: 0;  
 }
+
+
+
+
 .box-works{
     margin: 80px 0 0;
 }
@@ -103,6 +105,9 @@ body{
     font-size: 24px;
     margin: 10px 0;
 }
+.works-list li span{
+    font-size: 18px;
+}
 .works-list li.link{
     display: flex;
     justify-content: left;
@@ -120,12 +125,13 @@ body{
 
 }
 .block-fooder{
+    clear: both;
     text-align: center;
     font-size: 15px;
     margin: 50px 0 20px;
 }
 /*
-*
+*スマホ用
 */
 @media screen and (max-width:767px){
     body{
